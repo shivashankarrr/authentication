@@ -1,0 +1,29 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "shivashankar",
+  "name": "shivashankar",
+  "password": "shivashankar",
+  "gender": "male",
+  "location": "hyderabad"
+}
+
+####
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "shivashankar",
+  "password": "shivashanka"
+}
+
+####
+put http://localhost:3000/change-password/
+Content-Type: application/json
+
+{
+  "username": "shiva_shankar",
+  "oldPassword": "shiva",
+  "newPassword": "shi"
+}
